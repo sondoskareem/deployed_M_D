@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +169,7 @@
       <workItem from="1577126431437" duration="1820000" />
       <workItem from="1577151930243" duration="4939000" />
       <workItem from="1577158061841" duration="20784000" />
-      <workItem from="1577240759017" duration="654000" />
+      <workItem from="1577240759017" duration="962000" />
     </task>
     <servers />
   </component>
@@ -179,6 +177,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577241999770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1577241999770" />
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576889110115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

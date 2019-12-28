@@ -18,8 +18,8 @@
                         @foreach($orderTaken as $orderTaken)
                             <tr>
                                 <th scope="row">{{$orderTaken->employee->name}}</th>
-                                <th scope="row">Order {{$orderTaken->order->id}}</th>
-                                <th scope="row">{{$orderTaken->employee->id}}</th>
+{{--                                <th scope="row">Order {{$orderTaken->order->id}}</th>--}}
+{{--                                <th scope="row">{{$orderTaken->employee->id}}</th>--}}
                                 <td><a href="{{route('empById'  , ['employee' =>$orderTaken->employee->id])}}">EmployeeInfo</a></td>
                                 <td><a href="{{route('ordById' , ['order' =>$orderTaken->order->id])}}">OrderInfo</a></td>
 

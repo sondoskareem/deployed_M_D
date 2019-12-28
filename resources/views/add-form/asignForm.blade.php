@@ -10,13 +10,13 @@
             <h6>Details information about the repo and th goods</h6>
 
         <ul class="extraSmall">
-            <li>Goods ID : <b>{{$goods->id}}</b></li>
-            <li>The distenation : <b>{{$goods->dest}}</b></li>
-            <li>More description about it : <b>{{$goods->desc }}</b></li>
+            <li>Goods ID   <b>{{$goods->id}}</b></li>
+            <li>Distenation  <b>{{$goods->dest}}</b></li>
+            <li>Description  <b>{{$goods->desc }}</b></li>
 {{--            <li>It's  <b> {{$goods->taken ? 'Taken by the some employees' : 'Not taken' }} </b></li>--}}
-            <li>Total cost is <b>{{$goods->finalCost}}</b></li>
-            <li>The repository name that holds this goods <b>{{$goods->repository->name }}</b></li>
-            <li>The location of the repository <b>{{$goods->repository->location}}</b></li>
+            <li>Cost<b>  {{$goods->finalCost}}</b></li>
+            <li>Repository name  <b>  {{$goods->repository->name }}</b></li>
+            <li>Repository location <b>  {{$goods->repository->location}}</b></li>
         </ul>
         </div>
 
@@ -31,7 +31,7 @@
                     <tr>
                         <th class="btn-primary" scope="col">Person name</th>
                         <th class="btn-primary" scope="col">Email</th>
-                        <th class="btn-primary" scope="col">Job Description</th>
+{{--                        <th class="btn-primary" scope="col">Job Description</th>--}}
                         <th class="btn-primary" scope="col">Company name</th>
                         <th class="btn-primary" scope="col">Company location</th>
                         <th class="btn-primary" scope="col">Is Admin</th>
@@ -44,7 +44,7 @@
                     <tr>
                         <th scope="row">{{$employee->name}}</th>
                         <td>{{$goods->id}}</td>
-                        <td>{{$employee->role->jobDescription}}</td>
+{{--                        <td>{{$employee->role->jobDescription}}</td>--}}
                         <td>{{$employee->company->id}}</td>
                         <td>{{$employee->company->location}}</td>
                         <td>{{$employee->user->isAdmin}}</td>

@@ -53,12 +53,12 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __(' Job title') }}</label>
                             <div class="col-md-6">
-                                <select name="role_id" id="role_id" class = "form-control">
-                                    @foreach (auth()->user()->role as $role)
-                                        <option value="{{ $role->id }}" >{{ $role->jobDescription }}</option>
-                                    @endforeach
+                                <select name="role" id="role" class = "form-control">
+                                    <option value="{{1}}" >Manager</option>
+                                    <option value="{{2}}" >HR</option>
+                                    <option value="{{3}}" >Delegate</option>
+                                    <option value="{{4}}" >Employee</option>
                                 </select>
-
                                 @error('errors')
                                 <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

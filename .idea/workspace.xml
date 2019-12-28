@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="" />
+    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderEmpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderEmpController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckCompany.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckCompany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_12_235727_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_12_235727_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_12_235742_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_12_235742_create_employees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add-form/asignForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/asignForm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add-form/asignOrderForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/asignOrderForm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add-form/employees.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/employees.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add-form/goods.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/goods.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add-form/roles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/roles.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/order_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/order_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slidNav/employees.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slidNav/employees.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slidNav/ordersTaken.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slidNav/ordersTaken.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +138,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
@@ -129,6 +153,9 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/resources/views/add-form.blade.php/company.blade.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Sundus\laravel\Final_M_C" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Sundus\laravel\CharH\resources\views" />
     </key>
@@ -169,7 +196,9 @@
       <workItem from="1577126431437" duration="1820000" />
       <workItem from="1577151930243" duration="4939000" />
       <workItem from="1577158061841" duration="20784000" />
-      <workItem from="1577240759017" duration="962000" />
+      <workItem from="1577240759017" duration="1839000" />
+      <workItem from="1577245397752" duration="2209000" />
+      <workItem from="1577370456184" duration="15987000" />
     </task>
     <servers />
   </component>
@@ -185,14 +214,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1576889110115" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577215136518">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577398903822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577215136518" />
-    <state x="367" y="18" width="645" height="691" key="#phpunit.xml" timestamp="1576779870955">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577398903822" />
+    <state x="367" y="18" width="645" height="691" key="#phpunit.xml" timestamp="1577401740664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="367" y="18" width="645" height="691" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1576779870955" />
+    <state x="367" y="18" width="645" height="691" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1577401740664" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1576270932377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,18 +234,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576718220458" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577126450967">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577370455730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577126450967" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577370455730" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1577031645951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577031645951" />
-    <state x="283" y="133" width="672" height="676" key="search.everywhere.popup" timestamp="1577082383081">
+    <state x="283" y="133" width="672" height="676" key="search.everywhere.popup" timestamp="1577403844650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="133" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577082383081" />
+    <state x="283" y="133" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577403844650" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -33,7 +33,7 @@ class EmployeesController extends Controller
         $new_employee->manager_id =$userID;
         $new_employee->name = request('name');
         $new_employee->company_id =auth()->user()->company->id;
-        $new_employee->role_id = request('role_id');
+        $new_employee->role = request('role');
         $new_employee->save();
         User::where('id',request('user_id'))->update(array('hasJob' => true ));
         return redirect('/add/employees');
@@ -52,6 +52,11 @@ class EmployeesController extends Controller
         $employee = Employees::where('manager_id' , $userID)->get();
 //        dd($employee);
          return view('slidNav.employees' , compact('employee'));
+    }
+    public function empById(Employees $employee){
+        $userID = auth()->user()->id;
+        $employee=Employees::where('id' , $employee->id)->get();
+        return view('profile.employee_profile' , compact('employee'));
     }
 
 }

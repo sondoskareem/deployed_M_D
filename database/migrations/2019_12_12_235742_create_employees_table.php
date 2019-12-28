@@ -19,7 +19,7 @@ class CreateEmployeesTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('manager_id');
             $table->unsignedBigInteger('company_id');
-            $table->unsignedBigInteger('role_id');
+            $table->integer('role');
             $table->timestamps();
         });
     }

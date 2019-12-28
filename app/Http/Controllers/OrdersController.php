@@ -31,8 +31,8 @@ class OrdersController extends Controller
     protected function orderByID(Orders $order){
 //        dd($order);
         $userID = auth()->user()->id;
-        $orderResult = Orders::where('user_id' ,$userID)->where('id' , $order->id)->get();
+        $order = Orders::where('user_id' ,$userID)->where('id' , $order->id)->get();
 //        dd($order);
-        return view('profile.order_profile' , compact('orderResult'));
+        return view('profile.order_profile' , compact('order'));
     }
 }

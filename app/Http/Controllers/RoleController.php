@@ -23,6 +23,7 @@ class RoleController extends Controller
         $role = new Role();
         $role->user_id = $userID;
         $role->jobDescription = request('jobDescription');
+        $role->degree = request('degree');
         $role->save();
         return redirect('/add/roles');
     }

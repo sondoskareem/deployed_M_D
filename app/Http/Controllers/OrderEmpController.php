@@ -13,7 +13,7 @@ class OrderEmpController extends Controller
 {
    public function asignForm(Goods $goods){
        $userID = auth()->user()->id;
-       $employee = Employees::where('manager_id',$userID)->get();
+       $employee = Employees::where('manager_id',$userID)->where('role' , 4)->get();
        return view('add-form.asignForm' , compact('goods' , 'employee'));
    }
     public function asign(Request $request){
@@ -29,7 +29,7 @@ class OrderEmpController extends Controller
     }
     public function asignOrderForm(Orders $orders){
         $userID = auth()->user()->id;
-        $employee = Employees::where('manager_id',$userID)->get();
+        $employee = Employees::where('manager_id',$userID)->where('role' , 4)->get();
         return view('add-form.asignOrderForm' , compact('orders' , 'employee'));
     }
     public function asign_order(Request $request){

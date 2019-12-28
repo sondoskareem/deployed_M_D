@@ -25,13 +25,13 @@
         <div class="row m-4">
             <div class="col-md-12">
                 <h4><strong>List of employees</strong></h4>
-                <div class="card " >
+{{--                <div class="card " >--}}
                     <table class="table table-striped table-dark text-sm-center table-condensed">
                         <thead>
                         <tr>
                             <th class="btn-primary" scope="col">Person name</th>
                             <th class="btn-primary" scope="col">Email</th>
-                            <th class="btn-primary" scope="col">Job Description</th>
+{{--                            <th class="btn-primary" scope="col">Job Description</th>--}}
                             <th class="btn-primary" scope="col">Company name</th>
                             <th class="btn-primary" scope="col">Company location</th>
                             <th class="btn-primary" scope="col">Is Admin</th>
@@ -42,9 +42,9 @@
                         @foreach($employee as $employee)
                             {{--                        <p>{{$employee}}</p>--}}
                             <tr>
-                                <th scope="row">{{$employee->user->name}}</th>
+                                <th scope="row">{{$employee->name}}</th>
                                 <td>{{$employee->user->email}}</td>
-                                <td>{{$employee->role->jobDescription}}</td>
+{{--                                <td>{{$employee->role}}</td>--}}
                                 <td>{{$employee->company->name}}</td>
                                 <td>{{$employee->company->location}}</td>
                                 <td>{{$employee->user->isAdmin}}</td>
@@ -60,7 +60,7 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
+{{--            </div>--}}
         </div>
     </div>
 

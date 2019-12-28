@@ -12,7 +12,7 @@
             <ul class="navbar-nav mr-auto">
 
               <li class="nav-item">
-                <a class="nav-link " href="{{route('add.roles')}}">Add role</a>
+{{--                <a class="nav-link " href="{{route('add.roles')}}">Add role</a>--}}
               </li>
 
               <li class="nav-item">

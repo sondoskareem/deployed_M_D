@@ -17,6 +17,7 @@ class CreateRolesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
             $table->string('jobDescription');
+            $table->integer('degree');
             $table->timestamps();
         });
     }

@@ -14,9 +14,9 @@ class GoodsController extends Controller
     protected function create(){
         $userID = auth()->user()->id;
         $repos = Repository::where('user_id' , $userID)->get();
-        $goods = Goods::where('user_id' , $userID)->get();
+//        $goods = Goods::where('user_id' , $userID)->get();
 //dd($goods);
-        return view('add-form.goods' , compact('repos' , 'goods'));
+        return view('add-form.goods' , compact('repos' ));
     }
     public function store(Request $request){
 

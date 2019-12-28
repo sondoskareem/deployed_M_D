@@ -9,7 +9,7 @@
                         <thead>
                         <tr>
                             <th class="btn-dark" scope="col">Name</th>
-                            <th class="btn-dark" scope="col">Job description</th>
+                            <th class="btn-dark" scope="col">Job role</th>
                             <th class="btn-dark" scope="col"> nickName</th>
                             <th class="btn-dark" scope="col">Email</th>
                         </tr>
@@ -18,7 +18,7 @@
                         @foreach($employee as $employee)
                             <tr>
                                 <td>{{$employee->user->name}}</td>
-                                <td>{{$employee->role->jobDescription}}</td>
+                                <td>{{$employee->role}}</td>
                                 <td>{{$employee->name}}</td>
                                 <th scope="row">{{$employee->user->email}}</th>
                             </tr>

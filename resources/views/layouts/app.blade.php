@@ -19,6 +19,16 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "74150689-48b8-417b-ba72-5b86c7513cda",
+            });
+        });
+    </script>
+
     <style>
         .flex__container {
             display: flex;
@@ -128,12 +138,11 @@
                     <div class="left_flex">
                         <ul class="side_list">
                             <li class="List_item"><a href="{{route('add.repo')}}" class="list_link">Add Repository</a></li>
-                            <li class="List_item"><a href="{{route('add.goods')}}" class="list_link">Add Goods</a></li>
+                            <li class="List_item"><a href="{{route('home')}}" class="list_link">View Goods</a></li>
                             <li class="List_item"><a href="{{route('all.customers')}}" class="list_link">Customers</a></li>
                             <li class="List_item"><a href="{{route('all.orders')}}" class="list_link">View Orders</a></li>
-                            <li class="List_item"><a href="{{route('order.taken')}}" class="list_link">Orders Taken</a></li>
-                            <li class="List_item"><a href="{{route('home')}}" class="list_link">View Goods</a></li>
-                            <li class="List_item"><a href="{{route('all.employees')}}" class="list_link">Employees</a></li>
+{{--                            <li class="List_item"><a href="{{route('order.taken')}}" class="list_link">Orders Taken</a></li>--}}
+                            <li class="List_item"><a href="{{route('all.employees')}}" class="list_link">All Persons</a></li>
 
                         </ul>
                         <div><span></span></div>

@@ -26,16 +26,16 @@ Route::group(['middleware' => ['admin']] , function (){
     Route::get('/profile' ,'Profile@profile' )->name('profile');
     Route::get('/repo/goods' ,'Profile@repo_goods' )->name('repo_goods');
 
-    Route::get('/add/company' ,'CompanyController@create' )->name('add.company');
-    Route::post('/add/company' ,'CompanyController@store' )->name('company');
+    Route::get('/add/company' ,'CompanyController@create' )->name('add.company')->middleware('company_exist');
+    Route::post('/add/company' ,'CompanyController@store' )->name('company')->middleware('company_exist');
 
-    Route::get('/add/roles' ,'RoleController@create' )->name('add.roles');
-    Route::post('/add/roles' ,'RoleController@store' )->name('roles');
+//    Route::get('/add/roles' ,'RoleController@create' )->name('add.roles');
+//    Route::post('/add/roles' ,'RoleController@store' )->name('roles');
 
     Route::get('/add/employees' ,'EmployeesController@create' )->name('add.employees')->middleware('check_company');
     Route::post('/add/employees' ,'EmployeesController@store' )->name('employees');
     Route::get('/all/employees', 'EmployeesController@all')->name('all.employees');
-    Route::get('/employees/by/id', 'EmployeesController@all')->name('empById');
+    Route::get('/employees/by/{employee}', 'EmployeesController@empById')->name('empById');
 
     Route::get('/add/repo' ,'RepositoryController@create' )->name('add.repo');
     Route::post('/add/repo' ,'RepositoryController@store' )->name('repo');

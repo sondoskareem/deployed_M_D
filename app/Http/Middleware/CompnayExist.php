@@ -2,9 +2,10 @@
 
 namespace App\Http\Middleware;
 
+use App\Company;
 use Closure;
 
-class CheckCompany
+class CompnayExist
 {
     /**
      * Handle an incoming request.
@@ -15,10 +16,11 @@ class CheckCompany
      */
     public function handle($request, Closure $next)
     {
-//        dd(auth()->user()->company);
-        if(auth()->user()->company == null){
-            return redirect('/add/company');
-        }
-        return $next($request);
+        $userID = auth()->user()->id;
+        $companies = Company::where('user_id', $userID)->get();
+
+        if(!$companies->count() == 0)  return redirect('/add/employees');
+
+            return $next($request);
     }
 }

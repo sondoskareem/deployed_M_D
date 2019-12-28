@@ -19,7 +19,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($orderResult as $orderResult)
+                    @foreach($order as $orderResult)
                         <tr>
                             <td>{{$orderResult->id}}</td>
                             <td>{{$orderResult->customer->name}}</td>

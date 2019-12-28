@@ -35,6 +35,23 @@
                                 @enderror
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Degree') }}</label>
+                            <div class="col-md-6">
+{{--                                <input id="degree" type="text" class="form-control @error('degree') is-invalid @enderror" name="degree" value="{{ old('name') }}" required autocomplete="name" autofocus>--}}
+                                <select name="degree" id="degree" class = "form-control">
+                                        <option value="{{1}}" >Manager</option>
+                                        <option value="{{2}}" >HR</option>
+                                        <option value="{{3}}" >Delegate</option>
+                                        <option value="{{4}}" >Employee</option>
+                                </select>
+                                @error('degree')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

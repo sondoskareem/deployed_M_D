@@ -3,27 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderEmpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderEmpController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckCompany.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckCompany.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_12_235727_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_12_235727_create_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_12_235742_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_12_235742_create_employees_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add-form/asignForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/asignForm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add-form/asignOrderForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/asignOrderForm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add-form/employees.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/employees.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add-form/goods.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/goods.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add-form/roles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add-form/roles.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/order_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/order_profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slidNav/employees.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slidNav/employees.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slidNav/ordersTaken.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slidNav/ordersTaken.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +177,10 @@
       <workItem from="1577158061841" duration="20784000" />
       <workItem from="1577240759017" duration="1839000" />
       <workItem from="1577245397752" duration="2209000" />
-      <workItem from="1577370456184" duration="15987000" />
+      <workItem from="1577370456184" duration="16592000" />
+      <workItem from="1577639839582" duration="3000" />
+      <workItem from="1577740445460" duration="2272000" />
+      <workItem from="1577743048922" duration="431000" />
     </task>
     <servers />
   </component>
@@ -234,10 +216,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576718220458" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577370455730">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577743055839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577370455730" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577743055839" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1577031645951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

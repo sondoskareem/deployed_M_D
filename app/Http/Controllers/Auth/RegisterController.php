@@ -34,7 +34,7 @@ class RegisterController extends Controller
      */
     public function showRegistrationForm()
     {
-        if  (!Auth::check() ){
+        if  (Auth::check() ){
             return view('auth.register');
         }else{return redirect('/');}
     }

@@ -4,6 +4,8 @@
     <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,11 +135,12 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/resources/views/add-form.blade.php/company.blade.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Sundus\laravel\Final_M_C" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Sundus\laravel\CharH\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Sundus\laravel\Final_M_C\public" />
+      <recent name="G:\Sundus\laravel\Final_M_C" />
     </key>
   </component>
   <component name="RunManager">
@@ -181,7 +184,7 @@
       <workItem from="1577370456184" duration="16592000" />
       <workItem from="1577639839582" duration="3000" />
       <workItem from="1577740445460" duration="2272000" />
-      <workItem from="1577743048922" duration="7511000" />
+      <workItem from="1577743048922" duration="16403000" />
     </task>
     <servers />
   </component>

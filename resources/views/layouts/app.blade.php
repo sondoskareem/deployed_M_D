@@ -111,17 +111,18 @@
         }
 
         </style>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "a8bb6aaf-2963-4902-a94f-c0d6a3bdf0ce",
+            });
+        });
+    </script>
 </head>
 <body>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-        OneSignal.init({
-            appId: "a8bb6aaf-2963-4902-a94f-c0d6a3bdf0ce",
-        });
-    });
-</script>
+
     <div id="app">
         <main class="py-4">
             <div class="flex__container">

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="" />
+    <list default="true" id="ec2f9e16-9982-4186-af7c-aee707fe7006" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,6 +183,8 @@
       <workItem from="1577639839582" duration="3000" />
       <workItem from="1577740445460" duration="2272000" />
       <workItem from="1577743048922" duration="16823000" />
+      <workItem from="1577920773959" duration="1425000" />
+      <workItem from="1577923959227" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -215,14 +220,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576718220458" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577743055839">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577923966908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577743055839" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1577031645951">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577923966908" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1577926321674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577031645951" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577926321674" />
     <state x="283" y="133" width="672" height="676" key="search.everywhere.popup" timestamp="1577403844650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

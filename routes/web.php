@@ -1,17 +1,11 @@
 <?php
-//xc
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-Auth::routes(['register' => false]);
 
+Auth::routes([
+    'register' => false, // Registration Routes...
+    'reset' => true, // Password Reset Routes...
+    'verify' => true, // Email Verification Routes...
+    'login' => true
+]);
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -22,7 +16,12 @@ Route::get('/', function () {
 Route::group(['middleware' =>['auth']] , function(){
 Route::group(['middleware' => ['admin']] , function (){
 
-
+Auth::routes([
+    'register' => true, // Registration Routes...
+    'reset' => true, // Password Reset Routes...
+    'verify' => true, // Email Verification Routes...
+    'login' => false
+]);
     Route::get('/profile' ,'Profile@profile' )->name('profile');
     Route::get('/repo/goods' ,'Profile@repo_goods' )->name('repo_goods');
 
@@ -63,6 +62,9 @@ Route::group(['middleware' => ['admin']] , function (){
     Route::get('/task/finish', 'OrderEmpController@OrdersTakent')->name('order.taken');
     Route::get('/asign/order/{orders}' ,'OrderEmpController@asignOrderForm' )->name('asign.order');
     Route::post('/asign/order' ,'OrderEmpController@asign_order' )->name('order');//asign
+
+    Route::get('/emp/order/{employee}' ,'OrderEmpController@view_task' )->name('emp_order');
+
 });
 
     Route::group(['middleware' => ['superAdmin']] , function (){
@@ -74,14 +76,6 @@ Route::group(['middleware' => ['admin']] , function (){
 
 
 });
-// for always
-//Auth::routes([
-//    'register' => true, // Registration Routes...
-//    'reset' => false, // Password Reset Routes...
-//    'verify' => false, // Email Verification Routes...
-//    'login' => true
-//]);
-
 
 
 

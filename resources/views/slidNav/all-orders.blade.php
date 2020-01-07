@@ -19,7 +19,7 @@
                         <th class="" scope="col">Goods Destination</th>
                         <th class="" scope="col">Goods Description</th>
                         <th class="" scope="col">Taken?</th>
-                        <th class="" scope="col">A sign to</th>
+                        <th class="" scope="col">Assign to</th>
                     </tr>
                     </thead>
                     <tbody>

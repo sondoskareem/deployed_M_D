@@ -25,7 +25,7 @@ class IsAdmin extends Middleware
             return $next($request);
         }else{
 //            dd(auth()->user()->isAdmin);
-//
+//                dd('...');
             return redirect(url('/'));
         }
     }

@@ -24,7 +24,7 @@
         </div>
         <div class="row m-4">
             <div class="col-md-12">
-                <h4><strong>List of employees</strong></h4>
+                <h4><strong>List of Delegates</strong></h4>
 {{--                <div class="card " >--}}
                     <table class="table table-striped table-dark text-sm-center table-condensed">
                         <thead>
@@ -32,10 +32,10 @@
                             <th class="btn-primary" scope="col">Person name</th>
                             <th class="btn-primary" scope="col">Email</th>
 {{--                            <th class="btn-primary" scope="col">Job Description</th>--}}
-                            <th class="btn-primary" scope="col">Company name</th>
-                            <th class="btn-primary" scope="col">Company location</th>
-                            <th class="btn-primary" scope="col">Is Admin</th>
-                            <th class="btn-primary" scope="col">Asign Task</th>
+{{--                            <th class="btn-primary" scope="col">Company name</th>--}}
+{{--                            <th class="btn-primary" scope="col">Company location</th>--}}
+{{--                            <th class="btn-primary" scope="col">Is Admin</th>--}}
+                            <th class="btn-primary" scope="col">Assign Task</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -45,9 +45,9 @@
                                 <th scope="row">{{$employee->name}}</th>
                                 <td>{{$employee->user->email}}</td>
 {{--                                <td>{{$employee->role}}</td>--}}
-                                <td>{{$employee->company->name}}</td>
-                                <td>{{$employee->company->location}}</td>
-                                <td>{{$employee->user->isAdmin}}</td>
+{{--                                <td>{{$employee->company->name}}</td>--}}
+{{--                                <td>{{$employee->company->location}}</td>--}}
+{{--                                <td>{{$employee->user->isAdmin}}</td>--}}
                                 <td><form method="POST" action="{{route('order')}}">
                                         @csrf
                                         <input type="hidden" value="{{$orders->id}}" name ="order_id" >

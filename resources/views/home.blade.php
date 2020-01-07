@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <p class="table-condensed">You have  <b>{{$goods->count()}} available goods</b>  You can add new goods for shipping <a href="{{route('add.goods')}}"> here </a>  </p>
+    <p class="table-condensed">You have  <b>{{$goods->count()}} Goods</b>  You can add new goods for shipping <a href="{{route('add.goods')}}"> here </a>  </p>
 
     <div class="row justify-content-center">
         <div class="col-md-12">

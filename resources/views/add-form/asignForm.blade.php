@@ -24,7 +24,7 @@
     </div>
     <div class="row m-4">
         <div class="col-md-12">
-            <h4><strong>List of employees</strong></h4>
+            <h4><strong>List of Delegates</strong></h4>
             <div class="card " >
                 <table class="table table-striped table-dark text-sm-center table-condensed">
                     <thead>
@@ -35,7 +35,7 @@
                         <th class="btn-primary" scope="col">Company name</th>
                         <th class="btn-primary" scope="col">Company location</th>
                         <th class="btn-primary" scope="col">Is Admin</th>
-                        <th class="btn-primary" scope="col">Asign Task</th>
+                        <th class="btn-primary" scope="col">Assign Task</th>
                     </tr>
                     </thead>
                     <tbody>

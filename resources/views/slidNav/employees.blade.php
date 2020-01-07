@@ -12,6 +12,7 @@
                             <th class="btn-dark" scope="col">Job role</th>
                             <th class="btn-dark" scope="col"> nickName</th>
                             <th class="btn-dark" scope="col">Email</th>
+                            <th class="btn-dark" scope="col">Any Tasks?</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -21,6 +22,9 @@
                                 <td>{{$employee->role}}</td>
                                 <td>{{$employee->name}}</td>
                                 <th scope="row">{{$employee->user->email}}</th>
+{{--                                <th><a class="btn btn-dark button" href="{{route('emp_order' , ['employee' => $employee]) }}">Show Tasks</a></th>--}}
+                                <th><a class="btn btn-dark button" href="#">Show Tasks</a></th>
+
                             </tr>
                         @endforeach
                         </tbody>

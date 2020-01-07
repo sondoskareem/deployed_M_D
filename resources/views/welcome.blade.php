@@ -76,6 +76,16 @@
         </style>
     </head>
     <body>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js" async=""></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "a8bb6aaf-2963-4902-a94f-c0d6a3bdf0ce",
+            });
+        });
+    </script>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">

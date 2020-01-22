@@ -28,9 +28,6 @@ Auth::routes([
     Route::get('/add/company' ,'CompanyController@create' )->name('add.company')->middleware('company_exist');
     Route::post('/add/company' ,'CompanyController@store' )->name('company')->middleware('company_exist');
 
-//    Route::get('/add/roles' ,'RoleController@create' )->name('add.roles');
-//    Route::post('/add/roles' ,'RoleController@store' )->name('roles');
-
     Route::get('/add/employees' ,'EmployeesController@create' )->name('add.employees')->middleware('check_company');
     Route::post('/add/employees' ,'EmployeesController@store' )->name('employees');
     Route::get('/all/employees', 'EmployeesController@all')->name('all.employees');
@@ -45,8 +42,6 @@ Auth::routes([
 
     Route::get('/asign/goods/{goods}' ,'OrderEmpController@asignForm')->name('asign.goods');
     Route::post('/asign/goods' ,'OrderEmpController@asign')->name('asign');
-
-
 
     Route::get('/home', 'HomeController@index')->name('home');
 //
